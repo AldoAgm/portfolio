@@ -1,0 +1,77 @@
+body {
+    background: #212121;
+    color:#EDE7F6;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: #EDE7F6;
+}
+
+.hero-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.typewrite-title a {
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.contact-wrapper {
+    text-align: center;
+}
+
+.contact-text-hero {
+    font-weight: 700;
+    font-size: .8rem;
+    margin: 0px;
+
+} 
+
+.contact-wrapper a {
+    text-decoration: none;
+} 
+
+/* ! Responsive design */
+
+/* *--------------------------------- */
+/* * Desktop size */
+@media screen and (max-width: 1024px) {
+    .typewrite-title a {
+        font-size: 1rem;
+    }
+
+    .contact-text-hero {
+        font-size: .6rem;
+    }
+
+    .contact-wrapper a {
+        font-size: .7rem;
+        margin: 5px ;
+    }
+}
+
+/* *--------------------------------- */
+/* * Tablet size */
+@media screen and (max-width: 767px) {
+  
+}
+
+/* *--------------------------------- */
+/* * Phone size */
+@media screen and (max-width: 480px) {
+    
+}
+
+/* *--------------------------------- */
+/* * Small Phone size */
+@media screen and (max-width: 320px) {
+
+}
